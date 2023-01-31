@@ -1,0 +1,1 @@
+cmd_/media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/Module.symvers := sed 's/\.ko$$/\.o/' /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/modules.order | scripts/mod/modpost -m -a  -o /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/modules.order := {   echo /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/nc_driver.ko; :; } | awk '!x[$$0]++' - > /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/modules.order

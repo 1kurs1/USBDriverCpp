@@ -1,0 +1,1 @@
+cmd_/media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/nc_driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/nc_driver.ko /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/nc_driver.o /media/Main/Scripts/C++/USBDriverCpp/01_kernelspace_driver/nc_driver.mod.o;  true
